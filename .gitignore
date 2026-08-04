@@ -1,0 +1,9 @@
+# Byte-compiled / environment files
+venv/
+__pycache__/
+*.pyc
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
