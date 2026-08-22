@@ -89,3 +89,7 @@ Before delivery, confirm that the app has a clear purpose, no hidden network dep
 - Android Developers, “App architecture”: https://developer.android.com/topic/architecture
 - Android Developers, “Data and file storage overview”: https://developer.android.com/training/data-storage
 - Android Developers, “Accessibility”: https://developer.android.com/guide/topics/ui/accessibility
+
+## Practical example
+
+Apply this skill to the included **Offline Notes app** example in `examples/offline-notes-app.md`. Start a new task by copying `templates/offline-app-brief.md` and use `assets/demo.gif` as a quick visual summary of the workflow.

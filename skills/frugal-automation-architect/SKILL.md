@@ -102,3 +102,7 @@ Before enabling production behavior, require explicit confirmation for irreversi
 - IETF, “HTTP Semantics — Idempotent Methods”: https://www.rfc-editor.org/rfc/rfc9110.html#name-idempotent-methods
 - Telegram Bot API documentation: https://core.telegram.org/bots/api
 - Twelve-Factor App, “Config”: https://12factor.net/config
+
+## Practical example
+
+Apply this skill to the included **Telegram daily digest** example in `examples/telegram-daily-digest.md`. Start a new task by copying `templates/automation-contract.yaml` and use `assets/demo.gif` as a quick visual summary of the workflow.

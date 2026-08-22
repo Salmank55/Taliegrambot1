@@ -93,3 +93,7 @@ State which runtime and model were actually tested, the hardware used, the appro
 - OpenAI, “Model Spec”: https://model-spec.openai.com/
 - OWASP, “Top 10 for Large Language Model Applications”: https://owasp.org/www-project-top-10-for-large-language-model-applications/
 - Hugging Face, “Transformers documentation”: https://huggingface.co/docs/transformers/index
+
+## Practical example
+
+Apply this skill to the included **Support-ticket extractor** example in `examples/support-ticket-extractor.md`. Start a new task by copying `templates/llm-task-spec.yaml` and use `assets/demo.gif` as a quick visual summary of the workflow.

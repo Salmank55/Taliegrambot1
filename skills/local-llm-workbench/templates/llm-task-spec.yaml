@@ -1,0 +1,27 @@
+# Local LLM task specification
+name: [task-name]
+purpose: [one sentence]
+input:
+  type: [text | file | image]
+  languages: [[en]]
+  max_size: [define]
+output:
+  format: [json | text | labels]
+  schema: [path or inline schema]
+privacy:
+  must_stay_local: true
+  redactions: [[token, email, phone]]
+quality:
+  must_not_invent: [[field or claim]]
+  evaluation_cases: [path]
+reliability:
+  timeout_seconds: [30]
+  max_retries: [1]
+  fallback: [deterministic rule | review queue | safe error]
+cloud_fallback:
+  enabled: false
+  approval_required: true
+report:
+  record_model_id: true
+  record_prompt_version: true
+  record_latency: true

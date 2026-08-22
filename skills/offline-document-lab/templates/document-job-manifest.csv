@@ -1,0 +1,2 @@
+source_file,checksum,media_type,pages,extraction_path,status,review_reason,output_file,notes
+[filename],[sha256 or blank],[pdf/image/doc/csv],[count],[native-text/ocr/manual],[pending],[reason],[output],[notes]

@@ -1,0 +1,32 @@
+# Frugal automation contract
+name: [automation-name]
+purpose: [one repeated problem]
+trigger:
+  type: [manual | schedule | file | webhook | message]
+  schedule_or_event: [define]
+input:
+  source: [local file | queue | API | message]
+  schema: [path or short description]
+side_effects:
+  action: [exact action]
+  dry_run_supported: true
+  confirmation_required: true
+identity:
+  authorized_users: [[user-or-chat-id]]
+  secret_names: [[TOKEN_NAME]]
+state:
+  stable_job_id: [formula]
+  checkpoint: [what is persisted]
+reliability:
+  timeout_seconds: [30]
+  max_retries: [2]
+  idempotency_rule: [define]
+  failure_queue: [path or table]
+operations:
+  status: [command]
+  pause: [command or flag]
+  resume: [command or flag]
+  cleanup: [retention rule]
+privacy:
+  outbound_fields: [[field names]]
+  log_redactions: [[token, body, phone]]

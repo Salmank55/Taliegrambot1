@@ -88,3 +88,7 @@ Deliver a concise processing report containing the input manifest, tools and ver
 - Library of Congress, “PDF/A”: https://www.loc.gov/preservation/digital/formats/fdd/fdd000318.shtml
 - Tesseract OCR documentation: https://tesseract-ocr.github.io/tessdoc/
 - Python, “csv — CSV File Reading and Writing”: https://docs.python.org/3/library/csv.html
+
+## Practical example
+
+Apply this skill to the included **Invoice batch OCR** example in `examples/invoice-batch-ocr.md`. Start a new task by copying `templates/document-job-manifest.csv` and use `assets/demo.gif` as a quick visual summary of the workflow.
